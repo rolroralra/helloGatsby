@@ -7,15 +7,15 @@ MD_FILE_EXT=".md"
 GIST_USER_ID="rolroralra"
 GIST_BASE_URL="gist:${GIST_USER_ID}"
 
-TEST_YN="y"
+TEST_YN="n"
 
 if [ -f ${JSON_FILE_PATH} ]
 then
 	rm -f ${JSON_FILE_PATH} ${JSON_FILE_PATH}
 fi
 
-# Get Current Gist
-bash ${HOME_DIR_PATH}/getCurrentGist.sh > ${JSON_FILE_PATH}
+# Get Current Update Gists
+bash ${HOME_DIR_PATH}/getCurrentUpdateGistList.sh > ${JSON_FILE_PATH}
 
 if [ ! -f ${JSON_FILE_PATH} ]
 then
