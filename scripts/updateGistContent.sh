@@ -7,7 +7,7 @@ MD_FILE_EXT=".md"
 GIST_USER_ID="rolroralra"
 GIST_BASE_URL="gist:${GIST_USER_ID}"
 
-TEST_YN="n"
+TEST_YN="y"
 
 if [ -f ${JSON_FILE_PATH} ]
 then
