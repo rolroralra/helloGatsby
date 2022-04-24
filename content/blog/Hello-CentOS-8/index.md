@@ -1,6 +1,6 @@
 ---
 title: Hello CentOS 8
-date: 2020-11-23T16:23:59Z
+date: 2021-01-23T14:29:09Z
 description: CentOS 8
 ---
 

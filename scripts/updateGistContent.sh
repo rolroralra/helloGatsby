@@ -1,4 +1,6 @@
 #!/bin/bash
+source ~/.bash_profile
+
 HOME_DIR_PATH="$(dirname $(realpath $0))"
 JSON_FILE_PATH="${HOME_DIR_PATH}/gist_list.json"
 GATSBY_HOME_PATH="${HOME_DIR_PATH}/../content/blog"

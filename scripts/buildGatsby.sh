@@ -1,8 +1,10 @@
 #!/bin/bash
+source ~/.bash_profile
+
 HOME_DIR_PATH="$(dirname $(realpath $0))"
 
 cd ${HOME_DIR_PATH}/..
-gatsby build
+npm run build
 
 if [ $? -ne 0 ]
 then
